@@ -16,7 +16,9 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="default.css" />
+    <link rel="stylesheet" type="text/css" href="default.css" />
+  
+    <link id="theme-style" rel="stylesheet" type="text/css" href="">
   </head>
   <body>
     <section class="s1">
@@ -44,10 +46,10 @@
               Personalize Theme
             </h5>
             <div class="theme-options-wrapper">
-              <div id="light-mode" class="theme-dot"></div>
-              <div id="blue-mode" class="theme-dot"></div>
-              <div id="green-mode" class="theme-dot"></div>
-              <div id="purple-mode" class="theme-dot"></div>
+              <div data-mode="light" id="light-mode" class="theme-dot"></div>
+              <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+              <div data-mode="green" id="green-mode" class="theme-dot"></div>
+              <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
             </div>
 
             <p id="settings-note">
@@ -140,7 +142,7 @@
                   <div class="post-preview">
                     <h6 class="post-title">Post Title </h6>
                     <p class="post-intro">This is a sentence. some more text here</p>
-                    <a href="#">Read More</a>
+                    <a href="post.html">Read More</a>
                   </div>
                 </div>
             </div>
@@ -206,5 +208,7 @@
 
       </div>
     </section>
+
+    <script text="text/javascript" src="script.js"></script>
   </body>
 </html>
